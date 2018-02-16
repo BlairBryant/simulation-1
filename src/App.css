@@ -2,27 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.binsHeader {
+  height: 100px;
+  width: 100%;
+  background: #ED6B5A;
 }
 
-.App-title {
-  font-size: 1.5em;
+.binHeader {
+  height: 100px;
+  width: 100%;
+  background: #ED6B5A;
 }
 
-.App-intro {
-  font-size: large;
+.headerLogo {
+  width: 10%;
+  height: 100%;
+  background: #AB2A19;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.headerShelf {
+  width: 20%;
+  height: 100%;
+  background: #D34735;
 }
+
+.headerBin {
+  width: 70%;
+  height: 100%;
+}
+
+/* .dollar {
+  border: 1px inset #ccc;
+}
+
+.dollar input {
+  border: 0px
+}
+
+.addInventory {
+  margin-top: 10px;
+} */
